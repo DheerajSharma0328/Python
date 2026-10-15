@@ -83,4 +83,8 @@ print(name.find("e"))
 test6 = "hello everyone  , hello all , hello i am audible"
 print(test6.replace("hello" , "Hey"))
 
+# f string
+
+print(f"Good Afternoon, {name}")
+
 
