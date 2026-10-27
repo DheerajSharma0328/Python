@@ -1,7 +1,7 @@
-f = open("/home/dheeraj-sharma/1. All Mighty Push/10.Python/01.helloworld.py")
-data = f.read()
-print(data)
-f.close()
+# f = open("/home/dheeraj-sharma/1. All Mighty Push/10.Python/01.helloworld.py")
+# data = f.read()
+# print(data)
+# f.close()
 
 # open take two argument 1. File Path 2.Operation on file 
 # By default operation is read i.e "r" we do not need to write it explicitly
@@ -19,7 +19,7 @@ mydata = open("myfiles.txt", "w")
 mydata.write(str)
 mydata.close()
 
-newfile = open("/home/dheeraj-sharma/1. All Mighty Push/newfile.txt")
+newfile = open("/home/dheeraj-sharma/1. All Mighty Push/1. Languages/Python/demofile.txt")
 # readline line read only one line and return string
 lines1 = newfile.readline()
 lines2 = newfile.readline()
@@ -44,7 +44,7 @@ print("Checking Readlines Output: ", type(lines6))
 newfile.close()
 
 
-whilefile = open("/home/dheeraj-sharma/1. All Mighty Push/newfile.txt")
+whilefile = open("/home/dheeraj-sharma/1. All Mighty Push/1. Languages/Python/demofile.txt")
 i = 1
 newfileline = whilefile.readline()
 # Printing line using while loop
@@ -54,4 +54,4 @@ while(newfileline != ""):
     newfileline = whilefile.readline()
     i += 1
 
-f.close()
+whilefile.close()
